@@ -1,178 +1,907 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="エンジニア転職用ポートフォリオ">
 
     <title>Maki Sato | Engineer Portfolio</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+          href="style.css">
 </head>
+
 
 <body>
 
-<header>
-    <nav>
-        <h1>Portfolio</h1>
+<!-- =========================
+     Header
+========================= -->
 
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+<header class="header">
+
+    <div class="container nav">
+
+        <a href="#top"
+           class="logo">
+            Maki Sato
+        </a>
+
+        <nav>
+
+            <ul class="nav-list">
+
+                <li>
+                    <a href="#about">About</a>
+                </li>
+
+                <li>
+                    <a href="#experience">Experience</a>
+                </li>
+
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </div>
+
 </header>
 
 
-<main>
+<main id="top">
 
-    <!-- Hero -->
-    <section class="hero">
 
-        <p>ENGINEER PORTFOLIO</p>
+<!-- =========================
+     Hero
+========================= -->
+
+<section class="hero">
+
+    <div class="container hero-content">
+
+        <p class="hero-label">
+            ENGINEER PORTFOLIO
+        </p>
+
+        <h1>
+            Manufacturing
+            <span>×</span>
+            IT
+        </h1>
+
+        <p class="hero-description">
+
+            製造業での製品開発・設計経験と<br>
+            プログラミング・ITスキルを活かし、<br>
+            現場の課題を技術で解決できる<br>
+            エンジニアを目指しています。
+
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#projects"
+               class="button button-primary">
+                View Projects
+            </a>
+
+            <a href="#about"
+               class="button button-secondary">
+                About Me
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     About
+========================= -->
+
+<section id="about"
+         class="section">
+
+    <div class="container">
+
+        <p class="section-label">
+            ABOUT
+        </p>
 
         <h2>
-            Manufacturing × IT
+            About Me
+        </h2>
+
+
+        <div class="about-grid">
+
+            <div class="about-text">
+
+                <p>
+                    これまで製造業において、
+                    製品開発・設計に携わってきました。
+                </p>
+
+                <p>
+                    主にスタッドレスタイヤなどの製品について、
+                    構造設計、試作、性能評価、耐久性改善、
+                    不具合対策、量産化までの一連の業務を経験しています。
+                </p>
+
+                <p>
+                    また、大学院での研究をきっかけに
+                    プログラミングを学び、
+                    実験装置の制御やデータ処理、
+                    画像保存の自動化などにも取り組みました。
+                </p>
+
+                <p>
+                    現在はPython、Java、SQL、HTML/CSS、
+                    JavaScriptなどの技術を学びながら、
+                    業務改善やシステム開発ができる
+                    ITエンジニアを目指しています。
+                </p>
+
+            </div>
+
+
+            <div class="about-card">
+
+                <h3>
+                    Career
+                </h3>
+
+                <div class="career-item">
+
+                    <span>
+                        Manufacturing
+                    </span>
+
+                    <strong>
+                        製品開発・設計
+                    </strong>
+
+                </div>
+
+
+                <div class="career-item">
+
+                    <span>
+                        Research
+                    </span>
+
+                    <strong>
+                        バイオミメティクス研究
+                    </strong>
+
+                </div>
+
+
+                <div class="career-item">
+
+                    <span>
+                        Programming
+                    </span>
+
+                    <strong>
+                        Python / Java / SQL
+                    </strong>
+
+                </div>
+
+
+                <div class="career-item">
+
+                    <span>
+                        Goal
+                    </span>
+
+                    <strong>
+                        IT Engineer
+                    </strong>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     Experience
+========================= -->
+
+<section id="experience"
+         class="section section-gray">
+
+    <div class="container">
+
+        <p class="section-label">
+            EXPERIENCE
+        </p>
+
+        <h2>
+            Experience
+        </h2>
+
+
+        <div class="timeline">
+
+
+            <article class="timeline-item">
+
+                <div class="timeline-number">
+                    01
+                </div>
+
+                <div>
+
+                    <h3>
+                        製品開発・設計
+                    </h3>
+
+                    <p class="timeline-subtitle">
+                        製造業 / 約5年間
+                    </p>
+
+                    <p>
+                        スタッドレスタイヤを中心とした
+                        製品の構造設計に携わりました。
+                    </p>
+
+                    <ul>
+
+                        <li>
+                            製品仕様・設計検討
+                        </li>
+
+                        <li>
+                            3D CADを利用した設計
+                        </li>
+
+                        <li>
+                            試作品の作製・評価
+                        </li>
+
+                        <li>
+                            ICE制動性能の改善
+                        </li>
+
+                        <li>
+                            耐久性向上
+                        </li>
+
+                        <li>
+                            不具合対策
+                        </li>
+
+                        <li>
+                            量産化までの対応
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </article>
+
+
+            <article class="timeline-item">
+
+                <div class="timeline-number">
+                    02
+                </div>
+
+                <div>
+
+                    <h3>
+                        大学院研究
+                    </h3>
+
+                    <p class="timeline-subtitle">
+                        バイオミメティクス
+                    </p>
+
+                    <p>
+                        昆虫や花びらの微細構造と
+                        運動機能について研究しました。
+                    </p>
+
+                    <ul>
+
+                        <li>
+                            3Dレーザー顕微鏡による観察
+                        </li>
+
+                        <li>
+                            加速度センサによる計測
+                        </li>
+
+                        <li>
+                            高速度カメラによる解析
+                        </li>
+
+                        <li>
+                            実験装置の設計
+                        </li>
+
+                        <li>
+                            プログラムによる装置制御
+                        </li>
+
+                        <li>
+                            画像保存の自動化
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </article>
+
+
+            <article class="timeline-item">
+
+                <div class="timeline-number">
+                    03
+                </div>
+
+                <div>
+
+                    <h3>
+                        IT・プログラミング
+                    </h3>
+
+                    <p class="timeline-subtitle">
+                        Self Learning
+                    </p>
+
+                    <p>
+                        実務・研究で感じた課題を
+                        プログラミングで解決するため、
+                        必要な技術を自ら学習してきました。
+                    </p>
+
+                    <ul>
+
+                        <li>
+                            Python
+                        </li>
+
+                        <li>
+                            Java
+                        </li>
+
+                        <li>
+                            SQL
+                        </li>
+
+                        <li>
+                            HTML / CSS
+                        </li>
+
+                        <li>
+                            JavaScript
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     Skills
+========================= -->
+
+<section id="skills"
+         class="section">
+
+    <div class="container">
+
+        <p class="section-label">
+            SKILLS
+        </p>
+
+        <h2>
+            Skills
+        </h2>
+
+
+        <div class="skills-grid">
+
+
+            <article class="skill-card">
+
+                <div class="skill-icon">
+                    PY
+                </div>
+
+                <h3>
+                    Python
+                </h3>
+
+                <p>
+                    Excelファイル処理、
+                    データ処理、
+                    GUIアプリケーション、
+                    業務自動化
+                </p>
+
+            </article>
+
+
+            <article class="skill-card">
+
+                <div class="skill-icon">
+                    JV
+                </div>
+
+                <h3>
+                    Java
+                </h3>
+
+                <p>
+                    基礎文法、
+                    オブジェクト指向、
+                    アプリケーション開発の基礎
+                </p>
+
+            </article>
+
+
+            <article class="skill-card">
+
+                <div class="skill-icon">
+                    DB
+                </div>
+
+                <h3>
+                    SQL
+                </h3>
+
+                <p>
+                    データベースの基本操作、
+                    SELECT、
+                    INSERT、
+                    UPDATEなど
+                </p>
+
+            </article>
+
+
+            <article class="skill-card">
+
+                <div class="skill-icon">
+                    WEB
+                </div>
+
+                <h3>
+                    HTML / CSS / JavaScript
+                </h3>
+
+                <p>
+                    Webページの構造設計、
+                    スタイリング、
+                    JavaScriptによる基本的な処理
+                </p>
+
+            </article>
+
+
+            <article class="skill-card">
+
+                <div class="skill-icon">
+                    GIT
+                </div>
+
+                <h3>
+                    Git / GitHub
+                </h3>
+
+                <p>
+                    ソースコード管理、
+                    GitHubへの公開、
+                    GitHub Pagesによる
+                    Webサイト公開
+                </p>
+
+            </article>
+
+
+            <article class="skill-card">
+
+                <div class="skill-icon">
+                    CAD
+                </div>
+
+                <h3>
+                    3D CAD
+                </h3>
+
+                <p>
+                    製品設計、
+                    構造検討、
+                    設計データ作成
+                </p>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     Projects
+========================= -->
+
+<section id="projects"
+         class="section section-gray">
+
+    <div class="container">
+
+        <p class="section-label">
+            PROJECTS
+        </p>
+
+        <h2>
+            Projects
+        </h2>
+
+
+        <div class="projects-grid">
+
+
+            <!-- Project 1 -->
+
+            <article class="project-card">
+
+                <div class="project-number">
+                    PROJECT 01
+                </div>
+
+                <h3>
+                    Excel売上集計自動化ツール
+                </h3>
+
+                <p>
+                    複数部署から提出されるExcelファイルを
+                    Pythonで自動的に読み込み、
+                    データを統合・集計する業務支援ツールです。
+                </p>
+
+
+                <div class="project-info">
+
+                    <h4>
+                        使用技術
+                    </h4>
+
+                    <div class="tags">
+
+                        <span>Python</span>
+                        <span>openpyxl</span>
+                        <span>Excel</span>
+
+                    </div>
+
+
+                    <h4>
+                        主な機能
+                    </h4>
+
+                    <ul>
+
+                        <li>
+                            Excelファイルの読み込み
+                        </li>
+
+                        <li>
+                            データの抽出・統合
+                        </li>
+
+                        <li>
+                            集計結果の出力
+                        </li>
+
+                        <li>
+                            エラーチェック
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <p class="project-status">
+                    Development
+                </p>
+
+            </article>
+
+
+            <!-- Project 2 -->
+
+            <article class="project-card">
+
+                <div class="project-number">
+                    PROJECT 02
+                </div>
+
+                <h3>
+                    Python GUI業務支援ツール
+                </h3>
+
+                <p>
+                    コマンドライン操作に不慣れなユーザーでも
+                    簡単に利用できるよう、
+                    PythonによるGUIアプリケーションを開発しました。
+                </p>
+
+
+                <div class="project-info">
+
+                    <h4>
+                        使用技術
+                    </h4>
+
+                    <div class="tags">
+
+                        <span>Python</span>
+                        <span>PySimpleGUI</span>
+
+                    </div>
+
+
+                    <h4>
+                        主な機能
+                    </h4>
+
+                    <ul>
+
+                        <li>
+                            ファイル選択
+                        </li>
+
+                        <li>
+                            入力値の取得
+                        </li>
+
+                        <li>
+                            ボタンによる処理実行
+                        </li>
+
+                        <li>
+                            処理結果の表示
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <p class="project-status">
+                    Development
+                </p>
+
+            </article>
+
+
+            <!-- Project 3 -->
+
+            <article class="project-card">
+
+                <div class="project-number">
+                    PROJECT 03
+                </div>
+
+                <h3>
+                    実験データ処理・自動化
+                </h3>
+
+                <p>
+                    大学院研究において、
+                    実験装置の制御や画像保存を
+                    プログラムによって自動化しました。
+                </p>
+
+
+                <div class="project-info">
+
+                    <h4>
+                        使用技術
+                    </h4>
+
+                    <div class="tags">
+
+                        <span>Programming</span>
+                        <span>Image Processing</span>
+                        <span>Automation</span>
+
+                    </div>
+
+
+                    <h4>
+                        工夫した点
+                    </h4>
+
+                    <ul>
+
+                        <li>
+                            実験装置の制御を自動化
+                        </li>
+
+                        <li>
+                            実験画像を自動保存
+                        </li>
+
+                        <li>
+                            実験作業の効率化
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <p class="project-status">
+                    Research
+                </p>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     Strength
+========================= -->
+
+<section class="section">
+
+    <div class="container">
+
+        <p class="section-label">
+            STRENGTH
+        </p>
+
+        <h2>
+            My Strength
+        </h2>
+
+
+        <div class="strength">
+
+            <h3>
+                未経験の領域でも、
+                必要な技術を自ら学び、
+                最後まで形にする力
+            </h3>
+
+            <p>
+                研究では、既存の知識だけでは解決できない
+                課題に対してプログラミングを独学し、
+                実験装置の制御や画像保存の自動化を実現しました。
+            </p>
+
+            <p>
+                また、製品開発では設計から試作、
+                評価、改善、量産化までのプロセスを経験しています。
+            </p>
+
+            <p>
+                これまで培った「課題を見つけ、
+                必要な知識を学び、
+                実際の成果につなげる力」を
+                ITエンジニアとして活かしたいと考えています。
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     Contact
+========================= -->
+
+<section id="contact"
+         class="section contact-section">
+
+    <div class="container contact">
+
+        <p class="section-label">
+            CONTACT
+        </p>
+
+        <h2>
+            Thank You
         </h2>
 
         <p>
-            Python・Java・SQLを活用して<br>
-            業務改善やシステム開発に取り組んでいます。
+            ポートフォリオをご覧いただき、
+            ありがとうございます。
         </p>
 
-        <a class="button" href="#projects">
-            Projects
+        <p>
+            GitHubでは、これまでに作成した
+            プロジェクトのソースコードを公開しています。
+        </p>
+
+        <a href="https://github.com/"
+           class="button button-primary"
+           target="_blank"
+           rel="noopener noreferrer">
+            GitHub Profile
         </a>
 
-    </section>
+    </div>
 
+</section>
 
-    <!-- About -->
-    <section id="about">
-
-        <h2>About</h2>
-
-        <p>
-            製造業で製品開発・設計に携わってきました。
-        </p>
-
-        <p>
-            研究や業務を通じてプログラミングを学び、
-            Pythonなどを利用したデータ処理や
-            業務自動化に取り組んでいます。
-        </p>
-
-    </section>
-
-
-    <!-- Skills -->
-    <section id="skills">
-
-        <h2>Skills</h2>
-
-        <div class="skills">
-
-            <div>
-                <h3>Python</h3>
-                <p>
-                    Excel処理、データ処理、
-                    GUIアプリケーション
-                </p>
-            </div>
-
-            <div>
-                <h3>Java</h3>
-                <p>
-                    基礎的なプログラミング
-                </p>
-            </div>
-
-            <div>
-                <h3>SQL</h3>
-                <p>
-                    データベース操作
-                </p>
-            </div>
-
-            <div>
-                <h3>Web</h3>
-                <p>
-                    HTML / CSS / JavaScript
-                </p>
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- Projects -->
-    <section id="projects">
-
-        <h2>Projects</h2>
-
-        <div class="project">
-
-            <h3>
-                Excel売上集計自動化ツール
-            </h3>
-
-            <p>
-                複数のExcelファイルをPythonで読み込み、
-                データを自動的に集計するツールです。
-            </p>
-
-            <p>
-                使用技術：Python / openpyxl
-            </p>
-
-        </div>
-
-
-        <div class="project">
-
-            <h3>
-                Python GUIアプリケーション
-            </h3>
-
-            <p>
-                Pythonを利用したデスクトップGUIアプリケーションです。
-            </p>
-
-            <p>
-                使用技術：Python / PySimpleGUI
-            </p>
-
-        </div>
-
-    </section>
-
-
-    <!-- Contact -->
-    <section id="contact">
-
-        <h2>Contact</h2>
-
-        <p>
-            GitHub：
-            <a href="https://github.com/">
-                GitHub Profile
-            </a>
-        </p>
-
-    </section>
 
 </main>
 
 
-<footer>
+<!-- =========================
+     Footer
+========================= -->
 
-    <p>
-        © 2026 Maki Sato
-    </p>
+<footer class="footer">
+
+    <div class="container">
+
+        <p>
+            © 2026 Maki Sato
+        </p>
+
+        <p>
+            Engineer Portfolio
+        </p>
+
+    </div>
 
 </footer>
 
+
+<script src="script.js"></script>
+
 </body>
+
 </html>
